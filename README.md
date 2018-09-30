@@ -1,5 +1,15 @@
 # Async queue promise
 
+### see
+[https://runkit.com/fixerror/runkit-npm-async-queue-promise](https://runkit.com/fixerror/runkit-npm-async-queue-promise)
+
+or
+
+[https://www.npmjs.com/package/async-queue-promise](https://www.npmjs.com/package/async-queue-promise)
+
+> npm i async-queue-promise
+
+
 ``` javascript
 import Queue from 'async-queue-promise';
 const instance = new Queue();
