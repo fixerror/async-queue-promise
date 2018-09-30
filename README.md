@@ -15,7 +15,6 @@ const delay = (time, value) => () => new Promise((resolve) => {
             let result5;
             setTimeout(() => {
                         result5 = instance.add(delay(500, 'time 5'));
-                        expect(instance.pending).toEqual(5);
             }, 500);
             const result1 = instance.add(delay(3000, 'time 1'));
             const result2 = instance.add(delay(1000, 'time 2'));

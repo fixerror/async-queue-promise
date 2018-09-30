@@ -1,6 +1,6 @@
 {
     "name": "async-queue-promise",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Async queue promise",
     "main": "dist/async-queue-promise.cjs.js",
     "module": "dist/async-queue-promise.esm.js",
