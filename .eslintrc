@@ -1,0 +1,15 @@
+{
+    "extends": ["airbnb"],
+    "parser": "babel-eslint",
+    "rules":{
+        "no-unused-vars": ["error", {"vars": "local", "args": "none"}],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "semi": ["error","always"],
+        "comma-dangle": ["error", "never"]
+    },
+    "env": {
+        "jest": true,
+        "es6": true,
+        "browser": true
+    }
+}

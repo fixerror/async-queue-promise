@@ -1,0 +1,13 @@
+{
+    "source": "./src",
+    "destination": "./docs",
+    "importPathPrefix": "out",
+    "excludes": [
+        "\\.test\\.js$"
+    ],
+    "plugins": [
+        {
+            "name": "esdoc-standard-plugin"
+        }
+    ]
+}

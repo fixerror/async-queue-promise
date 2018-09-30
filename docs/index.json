@@ -1,0 +1,1036 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "const resolveFn = Symbol('resolveFn');\nconst maxPendingProp = Symbol('maxPending');\nconst maxQueuedProp = Symbol('maxQueued');\nconst pendingProp = Symbol('pending');\nconst queue = Symbol('queue');\nconst dequeue = Symbol('dequeue');\n\n/**\n * @class Queue\n */\nclass Queue {\n    /**\n     * @param {number|Infinity} maxPending\n     * @param {number|Infinity} maxQueued\n     */\n    constructor({ maxPending = Infinity, maxQueued = Infinity } = {}) {\n        this[pendingProp] = 0;\n        this[maxPendingProp] = maxPending;\n        this[maxQueuedProp] = maxQueued;\n        this[queue] = [];\n    }\n\n    /**\n     * Get count promise pending\n     * @get pending\n     * @returns {number}\n     */\n    get pending() {\n        return this[pendingProp];\n    }\n\n    /**\n     * Get length queue\n     * @get length\n     * @returns {number}\n     */\n    get length() {\n        return this[queue].length;\n    }\n\n    /**\n     * Set item\n     * @method add\n     * @param {*} value\n     * @returns {Promise<any>}\n     */\n    add(value) {\n        return new Promise((resolve, reject) => {\n            if (this.length >= this[maxQueuedProp]) {\n                reject(new Error('Queue limit'));\n                return false;\n            }\n            let temp = value;\n            if (temp && typeof temp !== 'function') {\n                temp = () => value;\n            }\n            this[queue].push({\n                promiseFn: temp,\n                resolve,\n                reject\n            });\n\n            return this[dequeue]();\n        });\n    }\n\n    /**\n     * Dequeue item\n     * @method dequeue\n     * @private\n     * @returns {boolean}\n     */\n    [dequeue]() {\n        if (this.pending >= this[maxPendingProp]) {\n            return false;\n        }\n\n        const item = this[queue].shift();\n        if (!item) {\n            return false;\n        }\n\n        try {\n            this[pendingProp] += 1;\n            this[resolveFn](item.promiseFn())\n                .then((value) => {\n                    this[pendingProp] -= 1;\n                    item.resolve(value);\n                    this[dequeue]();\n                })\n                .catch((value) => {\n                    this[pendingProp] -= 1;\n                    item.reject(value);\n                    this[dequeue]();\n                });\n        } catch (e) {\n            this[pendingProp] -= 1;\n            item.reject(e);\n            this[dequeue]();\n        }\n        return true;\n    }\n\n    /**\n     * @method resolveFn\n     * @private\n     * @param {*} value\n     * @returns {*}\n     */\n    [resolveFn](value) {\n        if (value && typeof value.then === 'function') {\n            return value;\n        }\n\n        return new Promise((resolve) => {\n            resolve(value);\n        });\n    }\n}\n\n/**\n * export Queue\n */\nexport { Queue as default };\n",
+    "static": true,
+    "longname": "D:/PROJECT/sync-queue/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "resolveFn",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~resolveFn",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "maxPendingProp",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~maxPendingProp",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "maxQueuedProp",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~maxQueuedProp",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "pendingProp",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~pendingProp",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "queue",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~queue",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "dequeue",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~dequeue",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "class",
+    "name": "Queue",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Queue",
+    "access": "public",
+    "export": false,
+    "importPath": "async-queue-promise/src/index.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Queue"
+      }
+    ],
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number",
+          "Infinity"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "maxPending",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number",
+          "Infinity"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "maxQueued",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "[pendingProp]",
+    "memberof": "src/index.js~Queue",
+    "static": false,
+    "longname": "src/index.js~Queue#[pendingProp]",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "[maxPendingProp]",
+    "memberof": "src/index.js~Queue",
+    "static": false,
+    "longname": "src/index.js~Queue#[maxPendingProp]",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "[maxQueuedProp]",
+    "memberof": "src/index.js~Queue",
+    "static": false,
+    "longname": "src/index.js~Queue#[maxQueuedProp]",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "[queue]",
+    "memberof": "src/index.js~Queue",
+    "static": false,
+    "longname": "src/index.js~Queue#[queue]",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "get",
+    "name": "pending",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#pending",
+    "access": "public",
+    "description": "Get count promise pending",
+    "lineNumber": 28,
+    "unknown": [
+      {
+        "tagName": "@get",
+        "tagValue": "pending"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "get",
+    "name": "length",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#length",
+    "access": "public",
+    "description": "Get length queue",
+    "lineNumber": 37,
+    "unknown": [
+      {
+        "tagName": "@get",
+        "tagValue": "length"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "add",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#add",
+    "access": "public",
+    "description": "Set item",
+    "lineNumber": 47,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": "add"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<any>}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<any>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "[dequeue]",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#[dequeue]",
+    "access": "private",
+    "description": "Dequeue item",
+    "lineNumber": 73,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": "dequeue"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{boolean}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "[resolveFn]",
+    "memberof": "src/index.js~Queue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Queue#[resolveFn]",
+    "access": "private",
+    "description": "",
+    "lineNumber": 110,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": "resolveFn"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{*}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Async queue promise\n\n``` javascript\nimport Queue from 'async-queue-promise';\nconst instance = new Queue();\n\nconst delay = (time, value) => () => new Promise((resolve) => {\n    setTimeout(() => {\n        resolve(value);\n    }, time);\n});\n\n const run = async () => {\n\n            let result5;\n            setTimeout(() => {\n                        result5 = instance.add(delay(500, 'time 5'));\n                        expect(instance.pending).toEqual(5);\n            }, 500);\n            const result1 = instance.add(delay(3000, 'time 1'));\n            const result2 = instance.add(delay(1000, 'time 2'));\n            const result3 = instance.add(delay(2000, 'time 3'));\n            const result4 = instance.add(delay(1000, 'time 4'));\n            console.log(await result1);\n            console.log(await result2);\n            console.log(await result3);\n            console.log(await result4);\n            console.log(await result5);\n        };\n\n        run();\n        \n        //time 1\n        //time 2\n        //time 3\n        //time 4\n        //time 5\n```",
+    "longname": "D:\\PROJECT\\sync-queue\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n    \"name\": \"async-queue-promise\",\n    \"version\": \"1.0.0\",\n    \"description\": \"Async queue promise\",\n    \"main\": \"dist/async-queue-promise.cjs.js\",\n    \"module\": \"dist/async-queue-promise.esm.js\",\n    \"browser\": \"dist/async-queue-promise.umd.js\",\n    \"scripts\": {\n        \"lint\": \"eslint src --c \\\"./.eslintrc\\\" --ignore-path \\\"./.eslintignore\\\"\",\n        \"test\": \"jest \\\\.test\\\\.js$ --config \\\"./jest.config.json\\\"\",\n        \"test-coverage\": \"jest \\\\.test\\\\.js$ --config \\\"./jest.config.json\\\" --coverage --no-cache\",\n        \"test:watch\": \"jest \\\\.test\\\\.js$ --config \\\"./jest.config.json\\\" --watch\",\n        \"esdoc\": \"./node_modules/.bin/esdoc\",\n        \"build\": \"rollup -c\",\n        \"dev\": \"rollup -c -w\"\n    },\n    \"babel\": {\n        \"presets\": [\n            \"react-app\",\n            \"es2017\",\n            \"stage-0\"\n        ],\n        \"plugins\": [\n            \"transform-runtime\"\n        ]\n    },\n    \"author\": \"\",\n    \"license\": \"ISC\",\n    \"dependencies\": {\n        \"babel-runtime\": \"^6.11.6\"\n    },\n    \"devDependencies\": {\n        \"babel-core\": \"^6.26.3\",\n        \"babel-eslint\": \"^8.2.6\",\n        \"babel-jest\": \"^23.4.0\",\n        \"babel-preset-es2017\": \"^6.24.1\",\n        \"babel-preset-react-app\": \"^3.1.2\",\n        \"babel-preset-stage-0\": \"^6.24.1\",\n        \"babel-runtime\": \"6.26.0\",\n        \"esdoc\": \"^1.1.0\",\n        \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n        \"esdoc-standard-plugin\": \"^1.0.0\",\n        \"eslint\": \"^4.19.1\",\n        \"eslint-config-airbnb\": \"^16.1.0\",\n        \"eslint-config-airbnb-base\": \"^12.1.0\",\n        \"eslint-plugin-import\": \"^2.13.0\",\n        \"eslint-plugin-jsx-a11y\": \"^6.1.1\",\n        \"eslint-plugin-react\": \"^7.4.0\",\n        \"jest\": \"^23.5.0\",\n        \"jest-cli\": \"^23.4.1\",\n        \"jest-html-reporter\": \"^2.4.2\",\n        \"rollup\": \"^0.66.2\",\n        \"rollup-plugin-babel\": \"^2.6.1\",\n        \"rollup-plugin-commonjs\": \"^9.1.8\",\n        \"rollup-plugin-node-resolve\": \"^3.4.0\"\n    }\n}\n",
+    "longname": "D:\\PROJECT\\sync-queue\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.test.js | async-queue-promise</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Async queue promise"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="async-queue-promise"><meta property="twitter:description" content="Async queue promise"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.test.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Queue from &apos;./index&apos;;
+
+const delay = (time, value) =&gt; () =&gt; new Promise((resolve) =&gt; {
+    setTimeout(() =&gt; {
+        resolve(value);
+    }, time);
+});
+
+describe(&apos;Queue&apos;, () =&gt; {
+    test(&apos;should be instantiated by defaults wihout errors&apos;, () =&gt; {
+        expect(() =&gt; (new Queue())).not.toThrow();
+    });
+
+    test(&apos;Queue method add&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue();
+        let result5;
+        setTimeout(() =&gt; {
+            result5 = instance.add(delay(500, &apos;time 5&apos;));
+            expect(instance.pending).toEqual(5);
+        }, 500);
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        expect(instance.pending).toEqual(1);
+        const result2 = instance.add(delay(1000, &apos;time 2&apos;));
+        expect(instance.pending).toEqual(2);
+        const result3 = instance.add(delay(2000, &apos;time 3&apos;));
+        expect(instance.pending).toEqual(3);
+        const result4 = instance.add(delay(1000, &apos;time 4&apos;));
+        expect(instance.pending).toEqual(4);
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(await result2).toEqual(&apos;time 2&apos;);
+        expect(await result3).toEqual(&apos;time 3&apos;);
+        expect(await result4).toEqual(&apos;time 4&apos;);
+        expect(await result5).toEqual(&apos;time 5&apos;);
+    });
+
+    test(&apos;Queue method add maxPending = 1&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue({ maxPending: 1 });
+        let result5;
+        setTimeout(() =&gt; {
+            result5 = instance.add(delay(500, &apos;time 5&apos;));
+            expect(instance.pending).toEqual(1);
+            expect(instance.length).toEqual(4);
+        }, 500);
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        expect(instance.pending).toEqual(1);
+        const result2 = instance.add(delay(1000, &apos;time 2&apos;));
+        expect(instance.pending).toEqual(1);
+        const result3 = instance.add(delay(2000, &apos;time 3&apos;));
+        expect(instance.pending).toEqual(1);
+        const result4 = instance.add(delay(1000, &apos;time 4&apos;));
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(3);
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(3);
+        expect(await result2).toEqual(&apos;time 2&apos;);
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(2);
+        expect(await result3).toEqual(&apos;time 3&apos;);
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(1);
+        expect(await result4).toEqual(&apos;time 4&apos;);
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(0);
+        expect(await result5).toEqual(&apos;time 5&apos;);
+        expect(instance.pending).toEqual(0);
+    });
+
+    test(&apos;Queue method add maxQueued = 1&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue({ maxQueued: 1 });
+        let result5;
+        setTimeout(() =&gt; {
+            result5 = instance.add(delay(500, &apos;time 5&apos;));
+            expect(instance.pending).toEqual(5);
+            expect(instance.length).toEqual(0);
+        }, 500);
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        expect(instance.pending).toEqual(1);
+        const result2 = instance.add(delay(1000, &apos;time 2&apos;));
+        expect(instance.pending).toEqual(2);
+        const result3 = instance.add(delay(2000, &apos;time 3&apos;));
+        expect(instance.pending).toEqual(3);
+        const result4 = instance.add(delay(1000, &apos;time 4&apos;));
+        expect(instance.pending).toEqual(4);
+        expect(instance.length).toEqual(0);
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(await result2).toEqual(&apos;time 2&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(await result3).toEqual(&apos;time 3&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(await result4).toEqual(&apos;time 4&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(await result5).toEqual(&apos;time 5&apos;);
+        expect(instance.pending).toEqual(0);
+    });
+
+    test(&apos;Queue method add maxQueued = 1 and maxPending = 1&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue({ maxPending: 1, maxQueued: 1 });
+        let result5;
+        setTimeout(async () =&gt; {
+            try {
+                result5 = await instance.add(delay(500, &apos;time 5&apos;));
+                expect(result5).toEqual(false);
+            } catch (e) {
+                expect(e.toString()).toEqual(&apos;Error: Queue limit&apos;);
+            }
+            expect(instance.pending).toEqual(1);
+            expect(instance.length).toEqual(1);
+        }, 500);
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        expect(instance.pending).toEqual(1);
+        const result2 = instance.add(delay(1000, &apos;time 2&apos;));
+        expect(instance.pending).toEqual(1);
+        let result3;
+        try {
+            result3 = await instance.add(delay(2000, &apos;time 3&apos;));
+            expect(result3).toEqual(false);
+        } catch (e) {
+            expect(e.toString()).toEqual(&apos;Error: Queue limit&apos;);
+        }
+
+        expect(instance.pending).toEqual(1);
+        let result4;
+        try {
+            result4 = await instance.add(delay(1000, &apos;time 4&apos;));
+            expect(result3).toEqual(false);
+        } catch (e) {
+            expect(e.toString()).toEqual(&apos;Error: Queue limit&apos;);
+        }
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(1);
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(0);
+        expect(await result2).toEqual(&apos;time 2&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(result3).toEqual(undefined);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(result4).toEqual(undefined);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(result5).toEqual(undefined);
+        expect(instance.pending).toEqual(0);
+    });
+
+
+    test(&apos;Queue method add test reject&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue();
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        expect(instance.pending).toEqual(1);
+        let result2;
+        try {
+            result2 = await instance.add(delay(1000, new Error(&apos;Test reject&apos;)));
+        } catch (e) {
+            expect(e.toString()).toEqual(&apos;Error: Test reject&apos;);
+        }
+        expect(instance.pending).toEqual(1);
+        expect(instance.length).toEqual(0);
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(instance.pending).toEqual(0);
+        expect(instance.length).toEqual(0);
+        expect(result2.toString()).toEqual(&apos;Error: Test reject&apos;);
+    });
+
+    test(&apos;Queue method add test not add other value&apos;, async () =&gt; {
+        jest.setTimeout(15000);
+        const instance = new Queue();
+        const result1 = instance.add(delay(3000, &apos;time 1&apos;));
+        const result2 = await instance.add(_ =&gt; &apos;time 2&apos;);
+        const result3 = instance.add(delay(1000, &apos;time 3&apos;));
+        const result4 = await instance.add(&apos;time 4&apos;);
+        const result5 = await instance.add(Promise.resolve(&apos;time 5&apos;));
+        try {
+            await instance.add(_ =&gt; new Error(&apos;time 6&apos;));
+        } catch (e) {
+            expect(e.toString()).toEqual(&apos;time 6&apos;);
+        }
+        expect(await result1).toEqual(&apos;time 1&apos;);
+        expect(await result2).toEqual(&apos;time 2&apos;);
+        expect(await result3).toEqual(&apos;time 3&apos;);
+        expect(await result4).toEqual(&apos;time 4&apos;);
+        expect(await result5).toEqual(&apos;time 5&apos;);
+    });
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

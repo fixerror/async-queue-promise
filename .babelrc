@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "react-app",
+        "es2017",
+        "stage-0"
+    ],
+    "plugins": [
+        "transform-runtime"
+    ]
+}
